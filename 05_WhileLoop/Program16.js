@@ -11,7 +11,7 @@ while(true){
 		console.log("number is: "+ num);
 		break;
 	}
-	ans = readline.question("is number greater than "+num+" ");
+	ans = readline.question("is number greater than "+num+"  ");
 	if(ans=="y"){
 		start = num+1;
 	}else{
